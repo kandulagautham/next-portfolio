@@ -51,12 +51,12 @@ const tab_data=[
    return (
      <section  className='text-white' id="about">
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:py-16 '>
-            <Image className='mt-1px rounded-2xl'src="/PIC1.png" width={450} height={450}/>
+            <Image  alt="pic" className='mt-1px rounded-2xl'src="/PIC1.png" width={450} height={450}/>
         <div className='mt-4 md:mt-0 text-left flex-col'>
             <h2 className='text-4xl font-bold text-white mb-4 mt-4'>About Me</h2>
             <p className='text-base lg:text-lg'>
             As a final-year Computer Science engineer, my academic journey has cultivated a diverse skill set,
-            emphasizing collaboration, effective communication, and adept problem-solving. I've gained hands-on
+            emphasizing collaboration, effective communication, and adept problem-solving. I&apos;ve gained hands-on
             experience in applying advanced AI/ML techniques like deep learning and reinforcement learning,
             providing valuable insights into artificial intelligence applications. My enthusiasm for emerging
             technologies extends to exploring trends in blockchain, including Ethereum, and the dynamic realm 
