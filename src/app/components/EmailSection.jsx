@@ -6,31 +6,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 const EmailSection = () => {
-    /*const [emailsubmitted,setemailsubmitted]=useState(false);
-    const handelSubmit= async(e)=>
-    {
-        e.preventDefault();
-        const data={
-            email: e.target.email.value,
-            subject: e.target.subject.value,
-            message: e.target.message.value,
-        };
-        const JSONdata=JSON.stringify(data);
-        const endpoint='/api/send';
-        const options={
-            method:'POST',
-            headers: {
-                'Content-Type':'application/json',
-            },
-            body:JSONdata,
-        }
-        const responce=await fetch(endpoint,options);
-        const resData=await responce.json();
-        if (responce.status===200){
-            console.log('Message Sent');
-            setemailsubmitted(true);
-        }
-    };*/
+    const [emailsubmitted,setemailsubmitted]=useState(false);
   return (
     <section className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative' id="contact">
         <div className='bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))]  from-teal-500 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4  -left-4 transform -translate-x-1/2 -translate-1/2'></div>
