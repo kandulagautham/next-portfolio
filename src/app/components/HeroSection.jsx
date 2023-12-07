@@ -35,9 +35,9 @@ const HeroSection = () => {
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">Hi, I am Gautham Saaketh Kandula and welcome to my portfolio website</p>
           <div>
-            <Link href="#contact">
+            <a href="#contact">
             <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-400 via-teal-400 to-green-400 text-white'>Hire Me</button>
-            </Link>
+            </a>
             <a href="/GAUTHAM_SAAKETH_RESUME.pdf" download><button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent  text-white border border-image mt-2'><span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-400 via-teal-400 to-green-400">Download CV</span></button></a>
           </div>
         </motion.div>
